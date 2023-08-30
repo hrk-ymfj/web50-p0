@@ -4,6 +4,13 @@
         <title>Search</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
+        <script>
+            function redirectToCustomURL() {
+                var inputText = document.getElementById("search-input").value;
+                var customURL = "https://www." + inputText + ".com";
+                window.location.href = customURL;
+            }
+        </script>
     </head>
     <body>
         <div id="title">
@@ -19,13 +26,29 @@
         <div id="search-box" class="text-center d-flex align-items-center justify-content-center">
             <form id="search-form" action="https://google.com/search">
                 <div class="mb-3">
-                    <input type="text" name="q" class="form-control form-control-lg">
+                    <input id="search-input" type="text" name="q" class="form-control form-control-lg">
                 </div>
                 <div>
                     <input type="submit" value="Google 検索" class="btn btn-secondary px-3 py-2">
-                    <input type="submit" value="I'm Feeling Lucky" class="btn btn-secondary px-3 py-2">
+                    <input type="button" value="I'm Feeling Lucky" class="btn btn-secondary px-3 py-2" onclick="redirectToCustomURL()">
                 </div>
             </form>
         </div>
+
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+            <div class="container-fluid">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 120px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">テキスト検索＆I'm Feeling Lucky</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="image.html">画像検索</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="advance.html">高度な検索</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
     </body>
 </html>

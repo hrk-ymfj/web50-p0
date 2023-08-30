@@ -6,7 +6,25 @@
     font-weight: bold;
 }
 
-
 .wider-input {
     width: 100%;
+}
+
+a {
+    font-size: small;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.navbar-nav-scroll {
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-inline: 15px;
 }

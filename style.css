@@ -58,3 +58,7 @@ a {
 .nav-item {
     margin-inline: 15px;
 }
+
+.radius {
+    border-radius: 25px;
+}

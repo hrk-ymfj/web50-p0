@@ -1,0 +1,12 @@
+#title > h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.wider-input {
+    width: 100%;
+}

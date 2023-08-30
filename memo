@@ -1,0 +1,13 @@
+https://www.google.com/search?as_q=abc&as_epq=def&as_oq=ghi&as_eq=jkl&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=
+
+すべてのキーワードを含む:abc
+q=abc
+
+語順も含め完全一致:def
+as_epq=ghi
+
+いずれかのキーワードを含む:ghi
+as_oq=ghi
+
+含めないキーワード:jkl
+as_eq=jkl

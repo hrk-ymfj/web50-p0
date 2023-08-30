@@ -6,6 +6,36 @@
     font-weight: bold;
 }
 
+#title > h2 {
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #d3381c;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+th {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+.fontsmall {
+    font-size: small;
+}
+
+span {
+    letter-spacing: -10px;
+}
+
 .wider-input {
     width: 100%;
 }
